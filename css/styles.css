@@ -44,21 +44,20 @@ text-decoration:none;}
 .site-nav .link:hover, .site-nav .link:focus{
     color:var(--accent-color);}
 .site-nav .current{color:var(--accent-color);}
-.contacts a{
+.contacts .link{
     color: #757575;
-font-weight: 500;
+font-weight: 400;
         font-size: 14px;
         line-height:1.71;
         letter-spacing: 0.03em;
         text-align: left;
         text-decoration: none;}
 
-.contacts a:hover , .contacts a:focus{
+.contacts .link:hover , .contacts .link:focus{
     color:var(--accent-color);
 }
-.contacts .current{
-    color: var(--accent-color);
-}
+
+
 .section-title {
     color:#212121;
   font-size: 36px;
@@ -112,6 +111,7 @@ font-weight: 500;
 
 
 .name-list .title{ color:var(--primary-text-color);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -167,7 +167,7 @@ font-weight: 500;
     background-color:#F5F4FA;
     font-weight: 500;
         font-size: 16px;
-        line-height: 1.17;
+        line-height: 1.63;
         letter-spacing: 0.03em;
     cursor: pointer;}
 
@@ -177,23 +177,28 @@ font-weight: 500;
     font-weight: 500;
     font-size: 16px;
     font-weight: 700;
-    line-height: 1.19;
+    line-height: 1.63;
     letter-spacing: 0.06em;
     text-align: center;
 
  }
- .contacts .adress{
-     color: #FFFFFF;
-     font-style:normal;
- }
- .contacts{color: #FFFFFF99;
+ 
+
+ .footer-contacts .link{color: #FFFFFF99;
         font-style: normal;
             font-size: 14px;
             font-weight: 400;
             line-height:1.71;
             letter-spacing: 0.03em;
             text-align: left;
+            text-decoration: none;
 }
+.footer-contacts .link:hover, .contacts-foot .a:focus{color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
 
  
 
